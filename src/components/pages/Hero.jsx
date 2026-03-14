@@ -27,7 +27,12 @@ const Hero = () => {
                         text="Join the Success"
                         border="border-[2px] border-[#7AC943] rounded-full"
                         padding="px-[32px] mt-4 py-[19px]"
-                        svg={<Icons icon="arrow" />}
+                        svg={
+                            <Icons
+                                icon="arrow"
+                                className="text-white group-hover:text-[#7AC943] transition-colors duration-300"
+                            />
+                        }
                         font="text-white font-semibold leading-[100%]"
                         bgColor="bg-[#7AC943]"
                         hover="hover:bg-transparent hover:text-[#7AC943] transition-all ease-in-out duration-300"

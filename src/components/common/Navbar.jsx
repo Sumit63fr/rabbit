@@ -13,7 +13,7 @@ const Navbar = () => {
                 <a href=""><Icons icon="logo" /></a>                    
                 
 
-                <div className='hidden lg:flex flex-row items-center gap-6 justify-center'>
+                <div className='hidden lg:flex flex-row whitespace-nowrap items-center gap-6 justify-center'>
                     <a href="" className='text-[#4E4E4E] hover:[-webkit-text-stroke:0.5px_#4E4E4E] font-normal text-base leading-[150%]'>Home</a>
                     <a href="" className='text-[#4E4E4E] hover:[-webkit-text-stroke:0.5px_#4E4E4E] font-normal text-base leading-[150%]'>Programs</a>
                     <a href="" className='text-[#4E4E4E] hover:[-webkit-text-stroke:0.5px_#4E4E4E] font-normal text-base leading-[150%]'>How It Works</a>
