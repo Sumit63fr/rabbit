@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/common/Navbar';
 import Hero from './components/pages/Hero';
 import Image from './components/pages/Image';
+import Footer from './components/common/Footer';
 
 
 const App = () => (
@@ -10,8 +11,9 @@ const App = () => (
 
     <Navbar />
     <Hero/>
-    
+
     </div>
+    <Footer/>
  </div>
 );
 
