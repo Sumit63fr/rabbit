@@ -2,6 +2,7 @@ import React from 'react'
 import Button from '../common/Button'
 import Icons from '../common/Icon'
 import Image from './Image'
+import Paragraph from '../common/Paragraph'
 
 const Hero = () => {
     return (
@@ -18,11 +19,10 @@ const Hero = () => {
                     <h1 className='font-bold text-[#2B2B2B] text-[36px] sm:text-[44px] md:text-[52px] leading-[120%] text-center lg:text-left'>
                         Built by People. <br /> Backed by Tech.
                     </h1>
-                    <p className='font-normal my-4 text-[#4E4E4E] text-[14px] md:text-[16px] leading-[150%] text-center lg:text-left'>
-                        We're not a software company pretending to care. <br className='hidden md:block' />
-                        We're real underwriters — with real decision-making power <br className='hidden md:block' />
-                        — using tech to move faster, not think for us.
-                    </p>
+                    <Paragraph
+                        margin="my-4"
+                        width="w-[490px]"
+                        text="We’re not a software company pretending to care.We’re real underwriters — with real decision-making power — using tech to move faster, not think for us."/>
                     <Button
                         text="Join the Success"
                         border="border-[2px] border-[#7AC943] rounded-full"

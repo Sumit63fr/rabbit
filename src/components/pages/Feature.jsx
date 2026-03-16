@@ -1,14 +1,13 @@
 import React from 'react'
-import Icons from './Icon'
-import {  FEATURES } from '../utils/Data'
+import Icons from '../common/Icon'
+import { FEATURES } from '../utils/Data'
+import Heading2 from '../common/Heading2'
 
 
-const Footer = () => {
+const Feature = () => {
     return (
         <div className='flex flex-col items-center justify-center py-[60px] bg-[#F5F5F5]'>
-            <h1 className='font-bold mb-10 text-[#2B2B2B] text-[48px] leading-[120%] text-center lg:text-left'>
-                Better Tech. Better Team. Better Lending
-            </h1>
+            <Heading2 margin="mb-10" text="Better Tech. Better Team. Better Lending" />
             <div className='flex flex-row items-center gap-33 justify-center'>
                 {FEATURES.map((feature, index) => (
                     <div key={index} className='flex flex-col items-center justify-center'>
@@ -30,4 +29,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Feature
