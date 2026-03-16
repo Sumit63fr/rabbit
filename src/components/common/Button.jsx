@@ -7,7 +7,7 @@ const Button = ({ text, bgColor, type, svg, textColor, font, border, padding, ro
             onClick={onClick}
             className={`cursor-pointer flex items-center gap-[6px] ${bgColor} ${textColor} ${font} ${border} ${padding} ${rounded} ${textSize} ${hover}`}
         >
-            {text}z
+            {text}
             {svg}
         </button>
     );

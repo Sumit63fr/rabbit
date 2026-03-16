@@ -1,11 +1,13 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/common/Navbar';
 import Hero from './components/pages/Hero';
-import Image from './components/pages/Image';
 import Feature from './components/pages/Feature';
 import Behind from './components/pages/Behind';
 import Results from './components/pages/Results';
 import Worked from './components/pages/Worked';
+import Stories from './components/pages/Stories';
+import Submit from './components/pages/Submit';
+import Footer from './components/common/Footer';
 
 
 const App = () => (
@@ -19,8 +21,11 @@ const App = () => (
     <Feature />
     <Behind />
     <Results />
-    <Worked/>
-  </div>
+    <Worked />
+    <Stories />
+    <Submit />
+    <Footer/>
+</div>
 );
 
 export default App

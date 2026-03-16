@@ -1,7 +1,6 @@
 import React from 'react'
 import Button from '../common/Button'
 import Icons from '../common/Icon'
-import Image from './Image'
 import Paragraph from '../common/Paragraph'
 
 const Hero = () => {
@@ -10,9 +9,9 @@ const Hero = () => {
 
             <div className='
                 flex items-center justify-between mx-auto max-lg:gap-25 w-full max-w-[1440px]
-                flex-col px-[20px] py-[60px] 
+                flex-col px-[20px] pb-[60px] 
                 md:px-[60px] md:py-[80px] 
-                lg:flex-row xl:px-[150px] xl:py-[100px] 
+                lg:flex-row xl:px-[150px] pt-[45px] xl:pb-[90px] 
             '>
 
                 <div className='flex flex-col items-center lg:items-start justify-center'>
@@ -20,8 +19,9 @@ const Hero = () => {
                         Built by People. <br /> Backed by Tech.
                     </h1>
                     <Paragraph
+                        align=" text-center lg:text-left"
                         margin="my-4"
-                        width="w-[490px]"
+                        width="max-w-[490px]"
                         text="We’re not a software company pretending to care.We’re real underwriters — with real decision-making power — using tech to move faster, not think for us."/>
                     <Button
                         text="Join the Success"
@@ -40,8 +40,8 @@ const Hero = () => {
                     />
                 </div>
 
-                <div className='flex items-center justify-center w-full lg:w-auto'>
-                    <Image/>
+                <div className='flex items-center justify-center -mt-12 w-full lg:w-auto'>
+                    <img src="./assets/Hero.webp" alt="" />
                 </div>
 
             </div>
