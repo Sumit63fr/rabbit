@@ -33,7 +33,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     ))}
-                    <div className="md:flex flex-col gap-3 hidden ">
+                    <div className=" max-sm:mb-5 flex flex-col gap-3  ">
                         <h3 className="text-[#4E4E4E] font-semibold">Contact</h3>
                         <ul className="gap-3 flex flex-col">
                             <li>

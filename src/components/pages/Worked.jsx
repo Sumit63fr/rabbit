@@ -8,18 +8,15 @@ const Worked = () => {
   return (
     <div className="w-full mx-auto bg-[linear-gradient(to_bottom,#e8f5e0_0%,#f0f9ea_40%,white_100%)] px-4 md:py-25.75 py-15">
       <div className="max-w-[734.29px] w-full mx-auto relative flex items-center justify-center">
-        {/* Hide rabbit on very small screens, scale it on medium+ */}
         <div className="hidden sm:block w-full">
           <Icons icon={"rabbit"} />
         </div>
 
-        {/* Changed: from absolute to relative on mobile, absolute on sm+ */}
         <div className="sm:absolute flex flex-col w-full items-center text-center px-4">
           <div className="flex flex-col w-full max-w-[480px] sm:max-w-147.5 items-center">
             <h1 className='font-bold text-[#2B2B2B] text-[28px] sm:text-[36px] md:text-[44px] lg:text-[52px] mb-3 leading-[120%] text-center'>
               Worked With Rabbit?
             </h1>
-            {/* Fixed: replaced fixed w-[480px] with responsive width */}
             <Paragraph
               width="w-full max-w-[480px]"
               text="We love hearing success stories. Submit your testimonial and help others fund their story."

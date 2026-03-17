@@ -13,7 +13,7 @@ const Behind = () => {
               
           <img src="/assets/Behind.png" alt="" />
           </div>
-          <div className='flex flex-col max-w-[502px] items-start justify-center'>
+          <div className='flex flex-col max-w-[502px] -mt-23 items-start justify-center'>
               <Heading2 margin="mr-4" text="Who’s Behind Rabbit?"/>
         <Paragraph align=" text-center lg:text-left"
   margin="mt-3" text="Our team isn’t just from finance. We’re ex-operators, former founders, and recovering bankers who got tired of saying &quot; no &quot; when we knew there was a better way to fund."/>
